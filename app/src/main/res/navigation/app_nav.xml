@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav.xml"
+    app:startDestination="@id/mainScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        tools:layout="@layout/screen_splash"
+        android:name="uz.gita.bootcamp.abdulbosit.apps.screen.splash.SplashScreen"
+        android:label="SplashScreen" >
+        <action
+            android:id="@+id/action_splashScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/splashScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreen"
+        tools:layout="@layout/screen_main"
+        android:name="uz.gita.bootcamp.abdulbosit.apps.screen.main.MainScreen"
+        android:label="MainScreen" >
+        <action
+            android:id="@+id/action_mainScreen_to_infoScreen"
+            app:destination="@id/infoScreen"
+            app:popUpTo="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoScreen"
+        tools:layout="@layout/screen_info"
+        android:name="uz.gita.bootcamp.abdulbosit.apps.screen.info.InfoScreen"
+        android:label="InfoScreen" />
+</navigation>

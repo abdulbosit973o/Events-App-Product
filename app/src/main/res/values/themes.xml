@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EventsAppProduct" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/green</item>
+    </style>
+
+    <style name="Theme.EventsAppProduct" parent="Base.Theme.EventsAppProduct" >
+        <item name="colorPrimary">@color/green</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/green</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/green</item>
+    </style>
+
+    <style name="Color1SwitchStyle">
+        <item name="colorControlActivated">@color/green</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+</resources>

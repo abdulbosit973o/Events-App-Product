@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="gray">#7C7878</color>
+
+    <color name="green">#FF4BAE4F</color>
+    <color name="track_color_enabled">#C5C1C1</color> <!-- Change to your desired enabled color -->
+    <color name="track_color_disabled">#A8A5A5</color> <!-- Change to your desired disabled color -->
+
+</resources>

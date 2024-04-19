@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Events-App-Product</string>
+    <string name="events">Events</string>
+    <string name="internet">Network</string>
+    <string name="battery_event">Battery</string>
+    <string name="screen_evant">Screen</string>
+    <string name="pilot_event">Air Plane</string>
+    <string name="bluetooth_event">Bluetooth</string>
+    <string name="about_app">About app</string>
+    <string name="wi_fi">Wi-Fi</string>
+    <string name="hotspot">Mobile connecting</string>
+    <string name="info_wi_fi">Welcome to Events App! Our application listens to events on your phone to provide you with a more personalized and optimized experience. We pay close attention to events such as phone calls, text messages, application usage, and more. This information allows us to offer unique features and insights that can enhance your phone usage.\n\n
+   <b><i>How It Works</i></b>\n\n<b>Event Listening</b>: Our app listens to various events on your phone, such as incoming and outgoing phone calls, text messages, application launches, etc.\n\n
+Data Processing: The app processes this data to provide you with personalized insights and features.\n\nPermission Management: The app requires specific permissions to access data from your phone. These permissions are used strictly for the apps intended purposes.</string>
+    <string name="language">Language</string>
+    <string name="shutdown">Power Off</string>
+    <string name="unlock_screen">Unlock</string>
+    <string name="timezone">Timezone</string>
+    <string name="feedback">Feedback</string>
+</resources>
